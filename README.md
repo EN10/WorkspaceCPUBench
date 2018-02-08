@@ -6,7 +6,7 @@ Based on [TensorFlowForPoets](https://github.com/EN10/TensorFlowForPoets#benchma
 ### Info
 
 OS: `lsb_release -a`    
-CPU `less /proc/cpuinfo`
+CPU `less /proc/cpuinfo`    
 RAM `free -mh`
 
 ### Install
@@ -43,5 +43,5 @@ RAM `free -mh`
 | tinymind | $2 credit |
 
 ### Ref
-[FloydHub](https://github.com/EN10/FloydHub)
-[TinyMind](https://www.tinymind.com)
+* [FloydHub](https://github.com/EN10/FloydHub)  
+* [TinyMind](https://www.tinymind.com)
