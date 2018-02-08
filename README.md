@@ -1,13 +1,25 @@
 # Workspace CPU Bench
 
+Benchmarking free online workspaces
 
-OS: `lsb_release -a`
+### Info
 
-sudo apt update
-sudo apt install sysbench
+OS: `lsb_release -a`    
+CPU `less /proc/cpuinfo`
 
-sysbench --test=cpu --cpu-max-prime=20000 --num-threads=2 run
+### Install
 
-| Workspace | RAM | OS | CPU | Performance | Notes |    
-| ----- | ----- | ----- | ----- | ----- | ----- |
-| cs50.io  | 512MB | 14.04.5 | 1m20s | |
+    sudo apt update
+    sudo apt install sysbench
+    sysbench --version
+
+### Run
+
+    sysbench --test=cpu --cpu-max-prime=20000 --num-threads=2 run
+
+### Benchmarks
+
+| Workspace | CPU | RAM | OS | sysbench | Threads | Total Time |   
+| -------- | ----- | ---- | ------- | ------- | ------ | ----- |
+| cs50.io  | 2.50GHz | 512MB | 14.04.5 | 0.4.12 | 1 | 28.8560s |
+| cs50.io  | 2.50GHz | 512MB | 14.04.5 | 0.4.12 | 2 | 20.9147s |
