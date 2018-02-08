@@ -7,6 +7,7 @@ Based on [TensorFlowForPoets](https://github.com/EN10/TensorFlowForPoets#benchma
 
 OS: `lsb_release -a`    
 CPU `less /proc/cpuinfo`
+RAM `free -mh`
 
 ### Install
 
@@ -29,3 +30,18 @@ CPU `less /proc/cpuinfo`
 | codenvy.io | E5-2686 v4 @ 2.30GHz | 3072MB | 16.04.3 | 0.4.12 | 2 | 14.2357s |
 | codenvy.io | E5-2686 v4 @ 2.30GHz | 3072MB | 16.04.3 | 0.4.12 | 4 | 8.5462s |
 | codenvy.io | E5-2686 v4 @ 2.30GHz | 3072MB | 16.04.3 | 0.4.12 | 8 | 8.5361s |
+| floydhub | E5-2686 v4 @ 2.30GHz | 8GB | 16.04.2 | 0.4.12 | 1 | 28.0695s |
+| floydhub | E5-2686 v4 @ 2.30GHz | 8GB | 16.04.2 | 0.4.12 | 2 | 17.0584s |
+| floydhub | E5-2686 v4 @ 2.30GHz | 8GB | 16.04.2 | 0.4.12 | 4 | 17.1446s |
+
+### Workspace Limitations
+
+| Workspace | Limitations |
+| -------- | --------- |
+| codenvy | 10 Mins inactivity |
+| floydhub | 20 Hours per month |
+| tinymind | $2 credit |
+
+### Ref
+[FloydHub](https://github.com/EN10/FloydHub)
+[TinyMind](https://www.tinymind.com)
