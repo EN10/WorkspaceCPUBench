@@ -33,6 +33,8 @@ RAM `free -mh`
 | floydhub | E5-2686 v4 @ 2.30GHz | 8GB | 16.04.2 | 0.4.12 | 1 | 28.0695s |
 | floydhub | E5-2686 v4 @ 2.30GHz | 8GB | 16.04.2 | 0.4.12 | 2 | 17.0584s |
 | floydhub | E5-2686 v4 @ 2.30GHz | 8GB | 16.04.2 | 0.4.12 | 4 | 17.1446s |
+| colab | 2.30GHz | 12GB | 17.10 | 1.0.8 | 1 | 10.0003s |
+| colab | 2.30GHz | 12GB | 17.10 | 1.0.8 | 2 | 10.0017s |
 
 ### Workspace Limitations
 
