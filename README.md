@@ -6,7 +6,7 @@ Based on [TensorFlowForPoets](https://github.com/EN10/TensorFlowForPoets#benchma
 ### Info
 
 OS: `lsb_release -a`    
-CPU `less /proc/cpuinfo`    
+CPU `cat /proc/cpuinfo | grep 'model name'`    
 RAM `free -mh`
 
 ### Install
